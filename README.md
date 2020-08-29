@@ -12,9 +12,9 @@ Create an object with departments and display the departments
 using for in loop.
 
 Sample Output :
-Departments in Cypher Source.
-Machine Learning
-Networking
+Departments in Cypher Source. </br>
+Machine Learning </br>
+Networking </br>
 Gaming
 
 Conditions :
