@@ -1,7 +1,7 @@
 # JavaScript-Classes-Modules
 It contains problems that are solved using concepts like objects, classes and modules of JavaScript.
 <br>
-### Problems description solved in this repository
+### Problems description solved in this repository:
 <h4> 1.Objects </h4>
 Description :
 The College “Cypher Source” needs your help to display few of
