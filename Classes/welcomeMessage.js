@@ -7,14 +7,17 @@ Conditions :
 2.Input must be obtained through readline() method.
 3.UserName must be stored in dynamic. */
 
+// Variable named "community" is declared globally.
+var community;
+
 // A class is a type of function, but instead of using the keyword function to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method.
 // Class named "CySo" is defined using "class" keyword.
 class CySo { 
 
-// Constructor() method is assigned inside the class to use the property named "Welcome".
-  constructor(Welcome) {
+// Passing user input "name" inside the method "Welcome"
+   Welcome (name) {
 
-// "this" keyword refers to the object "community" that belongs to the property "Welcome".
+// "this" keyword refers to the object "community" that belongs to the method "Welcome".
     this.community = Welcome;
   }
 }
@@ -27,8 +30,9 @@ const readline = require('readline').createInterface({
 
 readline.question('Hey buddy ! Your name please.. ?', name => {
 
-   console.log(" Welcome " + name + "! Cypher Source is glad to connect with you !");
+   console.log(" Welcome " + CySo.Welcome + "! Cypher Source is glad to connect with you !");
 
   readline.close();
 });
+
 
